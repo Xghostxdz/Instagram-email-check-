@@ -26,7 +26,7 @@ gem install httparty
 3. Run the script by executing:
 
 ```bash
-ruby script_name.rb
+ruby email.rb
 ```
 
 The script will generate random email addresses and check if they are associated with an Instagram account. If an account is found, the email will be saved to the `good.txt` file.
