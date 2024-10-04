@@ -15,7 +15,7 @@ To install Fastmux, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Xghostxdz/Fastmux.git
+   git clone https://github.com/Xghostxdz/Instagram-email-check
    ```
 2. Navigate to the project directory:
    ```bash
