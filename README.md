@@ -1,66 +1,44 @@
-```markdown
-# Fastmux
 
-Fastmux is an open-source tool built in Python that simplifies managing and running multiple terminal sessions on smartphones, offering a user experience similar to Termux.
+```markdown
+# Instagram-email-check-
+
+This script is designed to check the availability of Instagram accounts by sending a request to Instagram's password recovery API using randomly generated email addresses. The script is written in Ruby and uses the `HTTParty` gem to send HTTP requests.
 
 ## Features
-- Easy management of multiple terminal sessions.
-- Lightweight and optimized for mobile devices.
-- Supports scripting and automation of common tasks.
-- Compatible with most Android devices.
 
-## Installation
+- Sends a POST request to Instagram's password recovery endpoint with a randomly generated email.
+- Saves valid emails (those with an associated Instagram account) to a `good.txt` file.
+- Runs indefinitely in a loop, generating and checking emails.
 
-To install Fastmux, follow these steps:
+## Prerequisites
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Xghostxdz/Instagram-email-check
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Fastmux
-   ```
-3. Run the setup script:
-   ```bash
-   python setup.py install
-   ```
+- Ruby installed on your system.
+- The `HTTParty` gem. Install it by running:
+
+```bash
+gem install httparty
+```
 
 ## Usage
 
-Start Fastmux by running the following command:
+1. Clone this repository or copy the script to your local machine.
+2. Make sure you have Ruby and the required gem (`HTTParty`) installed.
+3. Run the script by executing:
+
 ```bash
-python fastmux.py
+ruby script_name.rb
 ```
 
-Once started, you can create, manage, and switch between multiple terminal sessions.
+The script will generate random email addresses and check if they are associated with an Instagram account. If an account is found, the email will be saved to the `good.txt` file.
 
-## Contributing
+## Notes
 
-Contributions are welcome! Please fork this repository and submit a pull request.
-
-1. Fork the repository.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request.
+- This script is for educational purposes only. Do not use it for malicious activities.
+- The headers and cookies in the script are specific to this version of Instagram's API. They may change over time, requiring updates to the script.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any questions or feedback, you can reach me on Telegram: [xghost](https://t.me/xghost).
+This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
-هذا الملف يحتوي على وصف للمشروع، تعليمات التثبيت والاستخدام، كيفية المساهمة في المشروع، ورابط التواصل معك على التليجرام.
+إذا كنت ترغب في أي تعديل أو إضافة، أعلمني!
